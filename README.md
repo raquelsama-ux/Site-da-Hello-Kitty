@@ -6,7 +6,7 @@ Um site temático inspirado no universo da Hello Kitty e da Sanrio, desenvolvido
 
 Acesse o projeto publicado:
 
-👉 :contentReference[oaicite:0]{index=0}
+👉 https://raquelsama-ux.github.io/Site-da-Hello-Kitty/
 
 ---
 
@@ -133,5 +133,3 @@ Hello Kitty®, Sanrio® e seus personagens são marcas registradas da Sanrio Co.
 ## 👩‍💻 Autora
 
 **Raquel Boff**
-
-GitHub: :contentReference[oaicite:1]{index=1}
