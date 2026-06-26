@@ -63,7 +63,7 @@ const btnRestart =
     document.getElementById("restartBtn");
 
 const STORAGE_KEY = "helloKittyRanking";
-const MAX_RANKING = 6;
+const MAX_RANKING = 10;
 
 // =========================
 // VARIÁVEIS
@@ -858,7 +858,7 @@ function showRanking(){
     } else {
         ranking.forEach((entry, index) => {
             const item = document.createElement("li");
-            item.textContent = `${index + 1}. ${entry.name} - ${entry.score}`;
+            item.textContent = `${entry.name} - ${entry.score}`;
             rankingList.appendChild(item);
         });
     }
