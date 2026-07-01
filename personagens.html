@@ -27,8 +27,8 @@
 
     <nav class="menu">
 
-        <div class="linha-menu">
-            <a href="#">Sobre a Sanrio</a>
+       <div class="linha-menu">
+            <a href="index.html">Sobre a Sanrio</a>
             <a href="personagens.html">Personagens</a>
             <a href="jogo.html">Jogo</a>
             <a href="teste.html">Teste</a>
@@ -78,189 +78,78 @@
 
 </header>
 
-<section class="conteudo">
+<section class="conteudo personagens-page">
 
-    <h1>Amigos da Hello Kitty</h1>
+    <h1>Conheça os personagens</h1>
+    <p class="subtitulo-personagens">Clique em um personagem para ver seu nome e sua história.</p>
 
-    <div class="bloco">
+    <div class="galeria-personagens">
+        <button class="personagem-card ativo" type="button"
+                data-title="Hello Kitty"
+                data-description="Hello Kitty, ou Kitty White, é a personagem mais famosa da Sanrio. Ela representa amizade, gentileza e positividade, com um visual simples e inesquecível.">
+            <img src="assets/hellokitty.png" alt="Hello Kitty">
+        </button>
 
-    <img class="animar" src="assets/hellokitty.png" alt="Hello Kitty">
+        <button class="personagem-card" type="button"
+                data-title="My Melody"
+                data-description="My Melody é uma coelhinha doce e educada, conhecida por seu capuz rosa e por transmitir uma energia muito meiga e acolhedora.">
+            <img src="assets/mymelody.png" alt="My Melody">
+        </button>
 
-    <div class="texto">
-        <h2>Hello Kitty</h2>
+        <button class="personagem-card" type="button"
+                data-title="Little Twin Stars"
+                data-description="Kiki e Lala são os queridos Little Twin Stars, personagens mágicos que encantam com sua fofura, seus cabelos coloridos e sua energia sonhadora.">
+            <img src="assets/littletwinstars.png" alt="Little Twin Stars">
+        </button>
 
-        <p>
-            Hello Kitty, cujo nome completo é Kitty White, é a personagem mais
-            famosa da Sanrio. Criada em 1974, ela representa amizade, gentileza
-            e positividade. Seu visual simples e seu característico laço vermelho
-            a transformaram em um ícone mundial da cultura kawaii.
+        <button class="personagem-card" type="button"
+                data-title="Gudetama"
+                data-description="Gudetama é um ovo preguiçoso e muito divertido, famoso por seu jeito relaxado e por trazer humor para todos os fãs da Sanrio.">
+            <img src="assets/gudetama.png" alt="Gudetama">
+        </button>
+
+        <button class="personagem-card" type="button"
+                data-title="Kuromi"
+                data-description="Kuromi é a personagem rebelde e cheia de estilo, com um jeito travesso e moderno que conquista fãs de todas as idades.">
+            <img src="assets/kuromi.png" alt="Kuromi">
+        </button>
+
+        <button class="personagem-card" type="button"
+                data-title="Cinnamoroll"
+                data-description="Cinnamoroll é um cachorrinho branco com orelhas enormes e um ar muito fofo, perfeito para quem ama personagens delicados e encantadores.">
+            <img src="assets/cinnamoroll.png" alt="Cinnamoroll">
+        </button>
+
+        <button class="personagem-card" type="button"
+                data-title="Aggretsuko"
+                data-description="Aggretsuko é uma panda-vermelha cheia de personalidade, que transforma seu estresse em energia e música heavy metal.">
+            <img src="assets/aggretsuko.png" alt="Aggretsuko">
+        </button>
+
+        <button class="personagem-card" type="button"
+                data-title="Pochacco"
+                data-description="Pochacco é um cachorrinho animado, esportista e cheio de energia, sempre pronto para viver novas aventuras com alegria.">
+            <img src="assets/pochacco.png" alt="Pochacco">
+        </button>
+
+        <button class="personagem-card" type="button"
+                data-title="Keroppi"
+                data-description="Keroppi é um sapinho alegre e muito simpático, conhecido por sua natureza otimista e sua presença leve e divertida.">
+            <img src="assets/keroppi.png" alt="Keroppi">
+        </button>
+
+        <button class="personagem-card" type="button"
+                data-title="Badtz-Maru"
+                data-description="Badtz-Maru é um pinguim irreverente e carismático, famoso por seu jeito sarcástico e por ser um dos favoritos da Sanrio.">
+            <img src="assets/badtzmaru.png" alt="Badtz-Maru">
+        </button>
+    </div>
+
+    <div id="detalhe-personagem" class="detalhe-personagem visivel" aria-live="polite">
+        <h2 id="personagem-nome">Hello Kitty</h2>
+        <p id="personagem-descricao">
+            Hello Kitty, ou Kitty White, é a personagem mais famosa da Sanrio. Ela representa amizade, gentileza e positividade, com um visual simples e inesquecível.
         </p>
-
-    </div>
-
-</div>
-
-    <div class="bloco reverso">
-
-        <img class="animar" src="assets/mymelody.png" alt="My Melody">
-
-        <div class="texto">
-            <h2>My Melody</h2>
-
-            <p>
-                My Melody é uma coelhinha muito doce e educada.
-                Seu capuz rosa tornou-se uma das imagens mais
-                reconhecidas da Sanrio.
-            </p>
-        </div>
-
-    </div>
-
-<div class="bloco">
-
-    <img class="animar" src="assets/littletwinstars.png" alt="Little Twin Stars">
-
-    <div class="texto">
-        <h2>Little Twin Stars</h2>
-
-        <p>
-            Kiki e Lala são irmãos gêmeos vindos das estrelas. Conhecidos como
-            Little Twin Stars, eles encantam os fãs com suas histórias mágicas,
-            seus cabelos coloridos e sua personalidade doce e sonhadora.
-        </p>
-
-    </div>
-
-</div>
-
-<div class="bloco reverso">
-
-    <img class="animar" src="assets/gudetama.png" alt="Gudetama">
-
-    <div class="texto">
-        <h2>Gudetama</h2>
-
-        <p>
-            Gudetama é um ovo preguiçoso que prefere descansar a qualquer hora
-            do dia. Seu humor divertido e sua personalidade desmotivada fizeram
-            dele um dos personagens mais populares e engraçados da Sanrio.
-        </p>
-
-    </div>
-
-</div>
-
-    <div class="bloco">
-
-        <img class="animar" src="assets/kuromi.png" alt="Kuromi">
-
-        <div class="texto">
-            <h2>Kuromi</h2>
-
-            <p>
-                Kuromi possui um estilo travesso e rebelde.
-                Apesar da aparência ousada, ela é divertida,
-                energética e extremamente popular entre os fãs.
-            </p>
-        </div>
-
-    </div>
-
-    <div class="bloco reverso">
-
-        <img class="animar" src="assets/cinnamoroll.png" alt="Cinnamoroll">
-
-        <div class="texto">
-            <h2>Cinnamoroll</h2>
-
-            <p>
-                Um cachorrinho branco com orelhas enormes que
-                permitem que ele voe pelos céus. É um dos
-                personagens mais adorados da Sanrio.
-            </p>
-        </div>
-
-    </div>
-
-<div class="bloco">
-
-    <img class="animar" src="assets/aggretsuko.png" alt="Aggretsuko">
-
-    <div class="texto">
-        <h2>Aggretsuko</h2>
-
-        <p>
-            Aggretsuko é uma panda-vermelha que trabalha em um escritório e
-            enfrenta os desafios da vida adulta. Quando fica estressada, ela
-            libera suas emoções cantando heavy metal em sessões de karaokê.
-        </p>
-
-    </div>
-
-</div>
-
-    <div class="bloco reverso">
-
-        <img class="animar" src="assets/pochacco.png" alt="Pochacco">
-
-        <div class="texto">
-            <h2>Pochacco</h2>
-
-            <p>
-                Um cachorrinho esportista e cheio de energia.
-                Gosta de correr, praticar esportes e viver
-                novas aventuras.
-            </p>
-        </div>
-
-    </div>
-
-    <div class="bloco">
-
-        <img class="animar" src="assets/keroppi.png" alt="Keroppi">
-
-        <div class="texto">
-            <h2>Keroppi</h2>
-
-            <p>
-                O simpático sapinho Keroppi mora próximo a um
-                lago e é conhecido por sua personalidade alegre
-                e otimista.
-            </p>
-        </div>
-
-    </div>
-
-    <div class="bloco reverso">
-
-        <img class="animar" src="assets/badtzmaru.png" alt="Badtz-Maru">
-
-        <div class="texto">
-            <h2>Badtz-Maru</h2>
-
-            <p>
-                Um pinguim irreverente que adora causar confusão.
-                Seu jeito sarcástico o torna um dos personagens
-                mais carismáticos da Sanrio.
-            </p>
-        </div>
-
-    </div>
-
-     <div class="bloco">
-
-        <img class="animar" src="assets/pompompurin.png" alt="Pompompurin">
-
-        <div class="texto">
-            <h2>Pompompurin</h2>
-
-            <p>
-                Um golden retriever muito simpático conhecido
-                por sua boina marrom. Adora sobremesas e passar
-                tempo com seus amigos.
-            </p>
-        </div>
-
     </div>
 
 </section>
@@ -274,37 +163,25 @@
 </section>
 
 <script>
+const cards = document.querySelectorAll('.personagem-card');
+const detalhe = document.getElementById('detalhe-personagem');
+const nome = document.getElementById('personagem-nome');
+const descricao = document.getElementById('personagem-descricao');
 
-const elementosAnimados =
-    document.querySelectorAll(".animar");
+function abrirPersonagem(card) {
+    cards.forEach((item) => item.classList.toggle('ativo', item === card));
+    nome.textContent = card.dataset.title;
+    descricao.textContent = card.dataset.description;
+    detalhe.classList.add('visivel');
+}
 
-const observador =
-    new IntersectionObserver(
-
-        (entradas)=>{
-
-            entradas.forEach((entrada)=>{
-
-                if(entrada.isIntersecting){
-
-                    entrada.target.classList.add("visivel");
-
-                }
-
-            });
-
-        },
-
-        { threshold:0.15 }
-
-    );
-
-elementosAnimados.forEach((elemento)=>{
-
-    observador.observe(elemento);
-
+cards.forEach((card) => {
+    card.addEventListener('click', () => abrirPersonagem(card));
 });
 
+if (cards.length) {
+    abrirPersonagem(cards[0]);
+}
 </script>
 
 <footer class="rodape">

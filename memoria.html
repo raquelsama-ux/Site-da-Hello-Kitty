@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Jogo da Memória | Hello Kitty</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="memoria.css">
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+
+    <header>
+
+        <h1>🎀 Jogo da Memória 🎀</h1>
+
+        <p>
+            Encontre todos os pares dos personagens da Sanrio antes do menor tempo possível!
+        </p>
+
+    </header>
+
+
+    <!-- MENU INICIAL -->
+
+    <section id="menuInicial">
+
+        <div class="cardMenu">
+
+            <h2>Novo Jogo</h2>
+
+            <label>
+                Nome do jogador
+            </label>
+
+            <input
+                type="text"
+                id="playerName"
+                maxlength="20"
+                placeholder="Digite seu nome">
+
+            <h3>Dificuldade</h3>
+
+            <div class="difficulty">
+
+                <label>
+
+                    <input
+                        type="radio"
+                        name="difficulty"
+                        value="easy"
+                        checked>
+
+                    Fácil (6 pares)
+
+                </label>
+
+                <label>
+
+                    <input
+                        type="radio"
+                        name="difficulty"
+                        value="hard">
+
+                    Difícil (10 pares)
+
+                </label>
+
+            </div>
+
+            <button id="startGame">
+                Jogar
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ÁREA DO JOGO -->
+
+    <main id="gameSection" class="hidden">
+
+        <div class="gameInfo">
+
+            <div>
+
+                <strong>👤 Jogador</strong>
+
+                <span id="playerDisplay">-</span>
+
+            </div>
+
+            <div>
+
+                <strong>⏱ Tempo</strong>
+
+                <span id="timer">00:00</span>
+
+            </div>
+
+            <div>
+
+                <strong>🎯 Movimentos</strong>
+
+                <span id="moves">0</span>
+
+            </div>
+
+            <div>
+
+                <strong>💖 Pares</strong>
+
+                <span id="pairs">0 / 0</span>
+
+            </div>
+
+        </div>
+
+
+        <!-- TABULEIRO -->
+
+        <section id="gameBoard">
+
+            <!-- As cartas serão criadas pelo JavaScript -->
+
+        </section>
+
+    </main>
+
+
+    <!-- MODAL DE VITÓRIA -->
+
+    <div id="victoryModal" class="hidden">
+
+        <div class="modalContent">
+
+            <h2>🎉 Parabéns! 🎉</h2>
+
+            <p>
+                Você encontrou todos os pares!
+            </p>
+
+            <div class="results">
+
+                <p>
+
+                    <strong>Jogador:</strong>
+
+                    <span id="winnerName"></span>
+
+                </p>
+
+                <p>
+
+                    <strong>Tempo:</strong>
+
+                    <span id="winnerTime"></span>
+
+                </p>
+
+                <p>
+
+                    <strong>Movimentos:</strong>
+
+                    <span id="winnerMoves"></span>
+
+                </p>
+
+            </div>
+
+            <button id="playAgain">
+                Jogar Novamente
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <script src="memoria.js"></script>
+
+</body>
+
+</html>
