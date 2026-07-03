@@ -176,3 +176,68 @@ footer{
     }
 
 }
+
+/* =========================
+   HERO JOGOS
+========================= */
+
+.hero-jogos{
+
+    background:linear-gradient(135deg,#28b8e8,#6fd3f6);
+
+    padding:60px 20px;
+
+    color:white;
+
+    box-shadow:0 4px 15px rgba(0,0,0,.15);
+
+}
+
+.hero-conteudo{
+
+    max-width:1200px;
+
+    margin:auto;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:40px;
+
+    flex-wrap:wrap;
+
+}
+
+.hero-conteudo img{
+
+    width:180px;
+
+    height:auto;
+
+}
+
+.hero-conteudo h1{
+
+    font-size:52px;
+
+    margin-bottom:15px;
+
+}
+
+.hero-conteudo p{
+
+    font-size:22px;
+
+    max-width:600px;
+
+    line-height:1.6;
+
+}
+
+.menu a.ativo{
+
+    color:#ffe566;
+}

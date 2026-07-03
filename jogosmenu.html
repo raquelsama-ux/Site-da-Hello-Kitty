@@ -12,21 +12,100 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="jogosmenu.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="jogosmenu.css">
 
 </head>
 
 <body>
+<!-- =========================
+     HEADER GLOBAL
+========================= -->
 
-<header>
+<header class="topo" id="topo">
 
-    <h1>🎀 Jogos da Hello Kitty 🎀</h1>
+    <div class="logo">
+        <a href="index.html">
+            <img src="assets/Logo.png" alt="Sanrio">
+        </a>
+    </div>
 
-    <p>
-        Escolha uma aventura e divirta-se com os personagens da Sanrio!
-    </p>
+    <button class="menu-mobile-btn">
+        ☰
+    </button>
+
+    <nav class="menu">
+
+        <div class="linha-menu">
+            <a href="index.html">Sobre a Sanrio</a>
+            <a href="personagens.html">Personagens</a>
+            <a href="jogosmenu.html" class="ativo">Jogos</a>
+            <a href="teste.html">Teste</a>
+        </div>
+
+        <div class="linha-menu">
+            <a href="#">Onde Comprar</a>
+            <a href="#contato">Contato</a>
+        </div>
+
+    </nav>
+
+    <div class="redes">
+
+        <a href="https://www.facebook.com/SanrioBrasil" target="_blank">
+            <img src="assets/facebook.png" alt="Facebook">
+        </a>
+
+        <a href="https://www.instagram.com/sanriobrasil" target="_blank">
+            <img src="assets/instagram.png" alt="Instagram">
+        </a>
+
+        <a href="https://www.youtube.com/hellokittybrasil" target="_blank">
+            <img src="assets/youtube.png" alt="Youtube">
+        </a>
+
+        <a href="https://www.tiktok.com" target="_blank">
+            <img src="assets/tiktok.png" alt="TikTok">
+        </a>
+
+        <a href="https://www.linkedin.com/company/sanrio" target="_blank">
+            <img src="assets/linkedin.png" alt="LinkedIn">
+        </a>
+
+        <select>
+            <option>Brasil</option>
+            <option>Portugal</option>
+            <option>Itália</option>
+        </select>
+
+    </div>
 
 </header>
+
+
+<!-- =========================
+     HERO DOS JOGOS
+========================= -->
+
+<section class="hero-jogos">
+
+    <div class="hero-conteudo">
+
+        <img src="assets/hellokitty2.png" alt="Hello Kitty">
+
+        <div>
+
+            <h1>🎀 Jogos da Hello Kitty 🎀</h1>
+
+            <p>
+                Escolha um dos minijogos abaixo e divirta-se com os personagens da Sanrio!
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
 
 
 <main class="container">
@@ -66,9 +145,40 @@
 
 </main>
 
-<footer>
+<!-- =========================
+     FOOTER
+========================= -->
 
-    © 2026 Hello Kitty Brasil • Projeto acadêmico
+<footer class="rodape">
+
+    <div class="rodape-conteudo">
+
+        <p class="copyright">
+            © 2026 SANRIO CO., LTD.
+        </p>
+
+        <div class="rodape-links">
+
+            <div class="coluna">
+                <a href="#"><b>Recursos</b></a>
+                <a href="#">Política de privacidade</a>
+                <a href="#">Termos de uso</a>
+            </div>
+
+            <div class="coluna">
+                <a href="#"><b>Lojistas</b></a>
+                <a href="#">Confira onde comprar</a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="rodape-imagem">
+        <img
+            src="assets/footer.png"
+            alt="Personagens Sanrio">
+    </div>
 
 </footer>
 

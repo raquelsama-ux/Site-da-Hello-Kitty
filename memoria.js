@@ -408,6 +408,19 @@ function salvarRecorde(){
 }
 
 // =========================
+// MENU MÓVEL
+// =========================
+
+const botaoMenu = document.querySelector(".menu-mobile-btn");
+const menu = document.querySelector(".menu");
+
+if(botaoMenu && menu){
+    botaoMenu.addEventListener("click", ()=>{
+        menu.classList.toggle("ativo");
+    });
+}
+
+// =========================
 // NOVA PARTIDA
 // =========================
 
