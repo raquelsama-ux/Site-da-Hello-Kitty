@@ -676,3 +676,59 @@ button:hover{
     }
 
 }
+
+/* =========================
+   FOOTER
+========================= */
+
+.rodape{
+    background-color:#6ed0ef;
+    width:100%;
+    margin-top:50px;
+}
+
+.rodape-conteudo{
+    max-width:1200px;
+    margin:0 auto;
+    padding:40px 30px 20px;
+}
+
+.copyright{
+    color:#358cff;
+    text-align: center;
+    font-size:26px;
+    font-weight:700;
+    margin-bottom:25px;
+}
+
+.rodape-links{
+    display:flex;
+    gap:120px;
+}
+
+.coluna{
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+}
+
+.coluna a{
+    color:#000;
+    text-decoration:none;
+    font-size:22px;
+    font-weight:600;
+}
+
+.coluna a:hover{
+    text-decoration:underline;
+}
+
+.rodape-imagem{
+    display:flex;
+    justify-content:center;
+}
+
+.rodape-imagem img{
+    max-width:100%;
+    display:block;
+}
